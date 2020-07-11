@@ -29,7 +29,7 @@ public class Currency {
 
         //每过1分钟打印一次结果
         Timer timer = new Timer();
-        timer.schedule(new MyTask(), 1000, 5000);
+        timer.schedule(new MyTask(), 1000, 60000);
         while (scan.hasNextLine()) {
             text = scan.nextLine();
             //输入quit,打印结果并退出

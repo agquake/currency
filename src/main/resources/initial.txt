@@ -1,0 +1,5 @@
+111 USD
+222 CNY
+333 USD
+444=EUR
+0=eee
